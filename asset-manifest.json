@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/furrl-homehunts/static/css/main.005d094f.css",
+    "main.js": "/furrl-homehunts/static/js/main.6c41bc66.js",
+    "static/js/453.f1502512.chunk.js": "/furrl-homehunts/static/js/453.f1502512.chunk.js",
+    "index.html": "/furrl-homehunts/index.html",
+    "main.005d094f.css.map": "/furrl-homehunts/static/css/main.005d094f.css.map",
+    "main.6c41bc66.js.map": "/furrl-homehunts/static/js/main.6c41bc66.js.map",
+    "453.f1502512.chunk.js.map": "/furrl-homehunts/static/js/453.f1502512.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.005d094f.css",
+    "static/js/main.6c41bc66.js"
+  ]
+}
