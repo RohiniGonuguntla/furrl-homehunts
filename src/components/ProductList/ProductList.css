@@ -1,0 +1,45 @@
+/* ProductList.css */
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .category-buttons button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .category-buttons button:hover {
+    background-color: #f0f0f0;
+  }
+
+  .vibe-card {
+    width: 100vw;
+    height: auto;
+    max-height: 40vh;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+  }
+  
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .product-list {
+      grid-template-columns: repeat(auto-fill, minmax(40vw, 1fr));
+      grid-template-rows: repeat(auto-fill, minmax(50vh, 1fr));
+    }
+  }
+  
